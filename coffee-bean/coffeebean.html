@@ -198,15 +198,15 @@
           <textarea name="additional_request" id="additional-request" cols="60" rows="10"></textarea>
           <h3>payment</h3>
           <h4>Payment Accepted cards</h4>
-          <label for="full-name">Full Name</label>
-          <input type="text" name="full_name" id="full-name" placeholder="John Doe">
+          <label for="payment-full-name">Full Name</label>
+          <input type="text" name="payment_full_name" id="payment-full-name" placeholder="John Doe">
           <label for="credit-card-number">Credit Card Number</label>
           <input type="text" name="credit_card_number" id="credit-card-number" placeholder="1234567890>
           <div class="res-agreement">
             <input type="checkbox" name="res_agreement" id="res-agreement" value="res-agreement">
             <label for="res-agreement">I agree in the terms and conditions.</label>
           </div>
-          <input type="submit" name="submit" value="send">
+          <input type="submit" name="send" id="send" value="send">
         </div>
         </form>
     </section>
@@ -214,17 +214,101 @@
       <div class="footer-contents">
         <div class="footer-widgets">
           <h3>opening hours</h3>
-          <h4>Day……Availability</h4>
-          <p>Monday……Closed</p>
-          <p>Tuesday……09:00-22:00</p>
-          <p>Wednesday……Closed</p>
-          <p>Thursday……09:00:22:00</p>
-          <p>Friday……09:00-22:00</p>
-          <p>Saturday……09:00-22:00</p>
-          <p>Sunday……09:00-22:00</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>..........</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>..........</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>..........</td>
+                <td>09:00-22:00</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>..........</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>..........</td>
+                <td>09:00:22:00</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>..........</td>
+                <td>09:00-22:00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>..........</td>
+                <td>09:00-22:00</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>..........</td>
+                <td>09:00-22:00</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-
+        <div class="footer-widgets">
+          <h3>latest post</h3>
+          <h4>Expand your mind, Change Everything</h4>
+          <p>14.02.2017</p>
+          <h4>Places to get lost</h4>
+          <p>14.02.2017</p>
+          <h4>Lewis Howes</h4>
+          <p>14.02.2017</p>
+          <h4>Elevate your Expectation</h4>
+          <p>14.02.2017</p>
+        </div>
+        <div class="footer-widgets">
+          <div>
+            <h3>contact us</h3>
+            <p>info@coffeebean.com</p>
+            <p>1-444-123-4559</p>
+            <p>Raymond Boulevard 224, New York</p>
+          </div>
+          <div>
+            <h3>the last standard post</h3>
+            <form action="#" method="#" class="footer-form">
+              <input type="text" name="text" id="text">
+              <input type="submit" name="search" id="search" value="SEARCH">
+            </form>
+          </div>    
+        </div>
+        <div class="footer-widgets">
+          <h3>other locations</h3>
+          <h4>Coffee Bean Philippines</h4>
+          <p>1234 IT Park</p>
+          <p>Cebu City</p>
+          <h4>Coffee Bean Tokyo</h4>
+          <p>1234 Business Park</p>
+          <p>Tokyo Japan</p>
+        </div>
+        <div class="footer-social">
+          <div class="social-widgets">
+            <h3>coffee bean</h3>
+          </div>
+          <div class="social-widgets">
+            <img src="assets/images/icon-fb.png" alt="facebook">
+            <img src="assets/images/icon-ig.png" alt="instagram">
+            <img src="assets/images/icon-tw.png" alt="twitter">
+          </div>
+          <div class="social-widgets">
+            <p>&copy;2021 | Kredo IT Abroad</p>
+          </div>
+        </div>
     </footer>
 </body>
 </html>

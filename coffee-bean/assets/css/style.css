@@ -320,8 +320,31 @@ form label {
 .footer-widgets h4 {
   color: #fff;
 }
-.footer td, footer th {
+.footer-widgets p {
+  color: #c7a17a;
+}
+.footer td, th {
   color: #fff;
   font-family: 'Raleway',sans-serif;
   text-shadow: 3px 3px 6px #312a26;
+}
+.footer-form * {
+  width: auto;
+}
+.footer-social {
+  color: #fff;
+  background-color: #19100F;
+  overflow: auto;
+  padding: 1em 7.5%;
+}
+.social-widgets {
+  width: 32.66%;
+  float: left;
+  text-align: center;
+}
+.social-widgets h3 {
+  text-transform: uppercase;
+}
+.social-widgets img {
+  width: 1.5em;
 }
