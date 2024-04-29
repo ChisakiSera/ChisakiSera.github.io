@@ -255,6 +255,7 @@ form p {
 .res-time {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 form h3 {
   text-align: center;
@@ -277,7 +278,7 @@ form h4 {
   text-transform: uppercase;
   margin: 1em;
 }
-.res-agreement *, .res-time * {
+.res-agreement *,.res-time *{
   width: auto;
 }
 form input[type="submit"] {
@@ -328,7 +329,7 @@ form label {
   font-family: 'Raleway',sans-serif;
   text-shadow: 3px 3px 6px #312a26;
 }
-.footer-form * {
+.footer-form *{
   width: auto;
 }
 .footer-social {

@@ -166,45 +166,47 @@
           <h2>reservation form</h2>
           <hr>
         </div>
-        <form action="" method="">
+        <form action="#" method="#">
         <div class="form-group">
           <label for="full-name">Full Name</label>
           <input type="text" name="full_name" id="full-name" placeholder="Last Name, First name">
           <label for="email">Email Address</label>
           <input type="email" name="email" id="email" placeholder="mail@mail.com">
           <label for="phone-number">Phone Number</label>
-          <input type="number" name="phone_number" id="phone-number" placeholder="(+63)912345678">
+          <input type="text" name="phone_number" id="phone-number" placeholder="(+63) 912345678">
           <h4>Reservation Details</h4>
-          <label for="number">Number of Guest</label>
-          <select name="number" id="number">
+          <label for="number-of-guest">Number of Guest</label>
+          <select name="number_of_guest" id="number-of-guest">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
           <label for="reservation-date">Reservation Date</label>
           <input type="date" name="reservation_date" id="reservation-date" placeholder="mm/dd/yyyy">
           <div class="res-time">
             <h4>Reservation Time</h4>
-            <input type="radio" name="time" id="morning" value="morning">
+            <input type="radio" name="reservation_time" id="morning" value="morning">
             <label for="morning">Morning</label>
-            <input type="radio" name="time" id="afternoon" value="afternoon">
+            <input type="radio" name="reservation_time" id="afternoon" value="afternoon">
             <label for="afternoon">Afternoon</label>
-            <input type="radio" name="time" id="night" value="night">
+            <input type="radio" name="reservation_time" id="night" value="night">
             <label for="night">Night</label>
           </div>
         </div>
         <div class="form-group">
-          <label for="comments">Additional Request</label>
-          <textarea name="additional_request" id="additional-request" cols="60" rows="10"></textarea>
+          <label for="additional-request">Additional Request</label>
+          <textarea name="additional_request" id="additional-request" cols="30" rows="10"></textarea>
           <h3>payment</h3>
           <h4>Payment Accepted cards</h4>
           <label for="payment-full-name">Full Name</label>
           <input type="text" name="payment_full_name" id="payment-full-name" placeholder="John Doe">
           <label for="credit-card-number">Credit Card Number</label>
-          <input type="text" name="credit_card_number" id="credit-card-number" placeholder="1234567890>
+          <input type="text" name="credit_card_number" id="credit-card-number" placeholder="1234567890">
           <div class="res-agreement">
-            <input type="checkbox" name="res_agreement" id="res-agreement" value="res-agreement">
-            <label for="res-agreement">I agree in the terms and conditions.</label>
+            <input type="checkbox" name="agreement" id="agreement" value="agreement">
+            <label for="agreement">I agree in the terms and conditions.</label>
           </div>
           <input type="submit" name="send" id="send" value="send">
         </div>
@@ -241,7 +243,7 @@
               <tr>
                 <td>Thursday</td>
                 <td>..........</td>
-                <td>09:00:22:00</td>
+                <td>09:00-22:00</td>
               </tr>
               <tr>
                 <td>Friday</td>
@@ -303,10 +305,10 @@
           <div class="social-widgets">
             <img src="assets/images/icon-fb.png" alt="facebook">
             <img src="assets/images/icon-ig.png" alt="instagram">
-            <img src="assets/images/icon-tw.png" alt="twitter">
+            <img src="assets/images/icon-tw - Copy.png" alt="twitter">
           </div>
           <div class="social-widgets">
-            <p>&copy;2021 | Kredo IT Abroad</p>
+            &copy; 2021 | Kredo IT Abroad
           </div>
         </div>
     </footer>
